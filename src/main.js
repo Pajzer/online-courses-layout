@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             price: 100,
             author: 'Jerome Bell',
             tagColor: 'marketing',
-            image: './src/assets/p1.jpg'
+            image: './public/images/p1.jpg'
         },
         {
             id: 2,
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
             price: 480,
             author: 'Marvin McKinney',
             tagColor: 'management',
-            image: './src/assets/p2.jpg'
+            image: './public/images/p2.jpg'
         },
         {
             id: 3,
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             price: 200,
             author: 'Leslie Alexander Li',
             tagColor: 'hr',
-            image: './src/assets/p3.jpg'
+            image: './public/images/p3.jpg'
         },
         {
             id: 4,
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
             price: 530,
             author: 'Kristin Watson',
             tagColor: 'marketing',
-            image: './src/assets/p4.jpg'
+            image: './public/images/p4.jpg'
         },
         {
             id: 5,
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
             price: 500,
             author: 'Guy Hawkins',
             tagColor: 'design',
-            image: './src/assets/p5.jpg'
+            image: './public/images/p5.jpg'
         },
         {
             id: 6,
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
             price: 400,
             author: 'Dianne Russell',
             tagColor: 'management',
-            image: './src/assets/p6.jpg'
+            image: './public/images/p6.jpg'
         },
         {
             id: 7,
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
             price: 600,
             author: 'Brooklyn Simmons',
             tagColor: 'development',
-            image: './src/assets/p7.jpg'
+            image: './public/images/p7.jpg'
         },
         {
             id: 8,
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
             price: 150,
             author: 'Kathryn Murphy',
             tagColor: 'hr',
-            image: './src/assets/p8.jpg'
+            image: './public/images/p8.jpg'
         },
         {
             id: 9,
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
             price: 240,
             author: 'Cody Fisher',
             tagColor: 'design',
-            image: './src/assets/p9.jpg'
+            image: './public/images/p9.jpg'
         }
     ];
 
