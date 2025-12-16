@@ -1,13 +1,67 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>online-courses-layout</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Courses</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.scss">
+</head>
+<body>
+
+    <div class="page">
+        <header class="header">
+            <div class="header__top">
+                <span class="header__subtitle">Enjoy your studying!</span>
+            </div>
+            <h1 class="header__title">Our online courses</h1>
+        </header>
+
+        <div class="controls">
+            <div class="controls__filters filters" id="filters-container">
+                <button class="filters__btn filters__btn--active" data-category="all">
+                    All <sup class="filters__count" id="count-all">0</sup>
+                </button>
+                <button class="filters__btn" data-category="Marketing">
+                    Marketing <sup class="filters__count" id="count-marketing">0</sup>
+                </button>
+                <button class="filters__btn" data-category="Management">
+                    Management <sup class="filters__count" id="count-management">0</sup>
+                </button>
+                <button class="filters__btn" data-category="HR & Recruiting">
+                    HR & Recruiting <sup class="filters__count" id="count-hr">0</sup>
+                </button>
+                <button class="filters__btn" data-category="Design">
+                    Design <sup class="filters__count" id="count-design">0</sup>
+                </button>
+                <button class="filters__btn" data-category="Development">
+                    Development <sup class="filters__count" id="count-dev">0</sup>
+                </button>
+            </div>
+
+            <div class="controls__search search">
+                <input type="text" class="search__input" id="search-input" placeholder="Search course...">
+                <svg class="search__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </div>
+        </div>
+
+        <main class="courses-grid" id="courses-grid">
+        </main>
+        <div class="load-more-container">
+            <button class="load-more-btn">
+                <svg class="load-more-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21.5 2v6h-6"></path>
+                    <path d="M2.5 22v-6h6"></path>
+                    <path d="M22 11.5a10 10 0 0 0-20 0a10 10 0 0 0 20 0z"></path>
+                </svg>
+                <span class="load-more-text">Load more</span>
+            </button>
+        </div>
+    </div>
+    <script src="/src/main.js"></script>
+</body>
 </html>
